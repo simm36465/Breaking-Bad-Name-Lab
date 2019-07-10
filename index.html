@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			    background: linear-gradient(90deg, #15ff45 0%, #004e02 100%);
+
+	}
+	.beg {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px dotted lime;
+    padding: 30px;
+    background: #3a8c3a;
+    font-size: 25px;
+    box-shadow: 0 0 20px 4px;
+    display: block;
+	}
+	.beg input {
+    padding: 5px;
+    border: 1px solid;
+    font-weight: bold;
+    font-family: monospace;
+	}
+	.beg input[type="submit"]{
+padding: 8px;
+    background: #00ff058a;
+    border: 1px solid;
+	}
+	.result{
+font-size: 30px;
+font-family: sans-serif;
+padding: 100px;
+font-weight: bold;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+border: 1px solid;
+width: 50%;
+text-align: center;
+background-image: url('bg.jpg');
+display: none;
+color: white;
+	}
+
+	</style>
+
+</head>
+<body>
+	<div class="result" id="result">
+		
+
+	</div>
+
+<div class="beg" id="beg">
+	First Name : <input type="text" id="fn"></p>
+	Last Name : <input type="text" id="ln"></p>
+	<input type="submit" id="generate" value="generate">
+</div>
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
